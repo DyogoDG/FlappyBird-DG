@@ -754,7 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pipeModel: {fileID: 6412539037688976560, guid: 892215b20ee5cc143b60c36921164b54, type: 3}
   spawnPoint: {fileID: 2122682407}
-  interval: 1
+  interval: 1.5
 --- !u!4 &1603849391
 Transform:
   m_ObjectHideFlags: 0
