@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Pipe : MonoBehaviour
 {
@@ -13,5 +14,12 @@ public class Pipe : MonoBehaviour
     void Update()
     {
         transform.position += Vector3.left * Time.deltaTime * speed;
+
+        if(transform.position.x < -1.743f)
+        {
+            //Auto Destruir
+            Destroy(gameObject);
+        }
+
     }
 }
